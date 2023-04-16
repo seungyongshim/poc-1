@@ -17,6 +17,19 @@
     "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "paths": {}
+    "paths": {
+      "@app/cats": [
+        "libs/cats/src"
+      ],
+      "@app/cats/*": [
+        "libs/cats/src/*"
+      ],
+      "@app/ctas": [
+        "libs/ctas/src"
+      ],
+      "@app/ctas/*": [
+        "libs/ctas/src/*"
+      ]
+    }
   }
 }

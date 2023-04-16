@@ -27,6 +27,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/poc-2/tsconfig.app.json"
       }
+    },
+    "cats": {
+      "type": "library",
+      "root": "libs/cats",
+      "entryFile": "index",
+      "sourceRoot": "libs/cats/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/cats/tsconfig.lib.json"
+      }
+    },
+    "ctas": {
+      "type": "library",
+      "root": "libs/ctas",
+      "entryFile": "index",
+      "sourceRoot": "libs/ctas/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/ctas/tsconfig.lib.json"
+      }
     }
   }
 }
