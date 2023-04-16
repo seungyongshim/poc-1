@@ -12,3 +12,4 @@ export class CatsController {
         return this.catsService.getCats();
     }
 }
+
